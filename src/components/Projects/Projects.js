@@ -54,12 +54,13 @@ function Projects() {
           </div>
           <div className="projects-loginDetail">
             <div>
-              <p>username:Rajeswaran</p>
-              <p>password:123456789</p>
+              <p style={{ color: "white" }}>Chat app</p>
+              <p style={{ color: "white" }}>username:Rajeswaran</p>
+              <p style={{ color: "white" }}>password:123456789</p>
             </div>
             <div>
-              <p>Email:admin@example.com</p>
-              <p>password:123456</p>
+              <p style={{ color: "white" }}>Email:admin@example.com</p>
+              <p style={{ color: "white" }}>password:123456</p>
             </div>
           </div>
           <div className="projects--body">

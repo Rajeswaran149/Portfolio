@@ -24,6 +24,7 @@
 .projects-loginDetail {
   display: flex;
   text-align: center;
+  /* justify-content: space-between; */
   gap:6rem;
   padding: 1rem;
 }
