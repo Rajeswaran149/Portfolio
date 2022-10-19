@@ -11,18 +11,21 @@ import whatsapp from "../assets/svg/projects/whatsapp.png";
 import shop from "../assets/svg/projects/e-com shop.png";
 import chat from "../assets/svg/projects/chat app.png";
 import pathfinder from "../assets/svg/projects/path-finder.png";
+import pizza from "../assets/svg/projects/pizza.png";
 
 export const projectsData = [
   {
     id: 1,
     projectName: "Youtube Clone",
-    projectDesc: "This project is a clone of youtube website",
+    projectDesc:
+      "Responsive MERN Stack project with firebase authentication.a website to view youtube content.",
     tags: [
       "React",
       "SAAS",
       "Firestore",
       "Redux",
       "Node.js",
+      "Express.js",
       "Mongodb",
       "React Bootstrap",
     ],
@@ -35,8 +38,20 @@ export const projectsData = [
   {
     id: 2,
     projectName: "Chat App",
-    projectDesc: "This project about real time chat application",
-    tags: ["React", "Socket.io", "Node.js", "Express", "Mongodb", "CSS"],
+    projectDesc:
+      "MERN stack website where users can chat in Realtime with members.",
+    tags: [
+      "React js",
+      "jwt",
+      "Nodejs",
+      "axios",
+      "Socket.io",
+      "react-toastify",
+
+      "styled-components",
+      "dotenv",
+      "MongoDB",
+    ],
     code: "https://github.com/Rajeswaran149/chat-app-frontend",
     code1: "https://github.com/Rajeswaran149/chat-app-backend.git",
     demo: "https://chat-app-mern-rajes.netlify.app/",
@@ -46,8 +61,17 @@ export const projectsData = [
     id: 3,
     projectName: "E-Commerce Shop",
     projectDesc:
-      "This project involves the development of an e-commerce shop where users can buy products.",
-    tags: ["React", "NodeJS", "Express", "MongoDB"],
+      "Responsive MERN Stack project with jwt authentication with Paypal payment. Admin login with CRUD operations on products",
+    tags: [
+      "React js",
+      "Node js",
+      "Express.js",
+      "Heroku",
+      "MongoDB",
+      "React",
+      "Bootstrap",
+      "jwt",
+    ],
     code: "https://github.com/Rajeswaran149/mern-ecommerce-front",
     code1: "https://github.com/Rajeswaran149/mern-E-commerce-backend.git",
     demo: "https://mern-ecom-we-shop-rajes.netlify.app/",
@@ -55,6 +79,26 @@ export const projectsData = [
   },
   {
     id: 4,
+    projectName: "Pizza-delivery",
+    projectDesc:
+      "MERN Stack project of with jwt authentication with stripe payment.Admin login with CRUD operations on products.",
+    tags: [
+      "React",
+      "NodeJS",
+      "jwt",
+      "axios",
+      "react-bootstrap",
+      "Netlify",
+      "Express",
+      "MongoDB",
+    ],
+    code: "https://github.com/Rajeswaran149/mern-crud-pizza-front",
+    code1: "https://github.com/Rajeswaran149/mern-crud-pizza-back",
+    demo: "https://pizza-rajes.netlify.app/",
+    image: pizza,
+  },
+  {
+    id: 5,
     projectName: "Pathfinder",
     projectDesc: "A Simple Pathfinding visualizer algorithms",
     tags: ["React", "Bootstrap"],
@@ -63,7 +107,7 @@ export const projectsData = [
     image: pathfinder,
   },
   {
-    id: 5,
+    id: 6,
     projectName: "Whatsapp Web Clone",
     projectDesc: "This project is a Whatsapp Web clone where users can chat",
     tags: ["React", "node.js", "Express", "mongodb", "Material Ui"],
