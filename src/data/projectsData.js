@@ -106,16 +106,16 @@ export const projectsData = [
     demo: "https://path-finder-rajes.netlify.app/",
     image: pathfinder,
   },
-  {
-    id: 6,
-    projectName: "Whatsapp Web Clone",
-    projectDesc: "This project is a Whatsapp Web clone where users can chat",
-    tags: ["React", "node.js", "Express", "mongodb", "Material Ui"],
-    code: "https://github.com/Rajeswaran149/whatsapp-frontend",
-    code1: "https://github.com/Rajeswaran149/whatsapp-backend.git",
-    demo: "https://whatsapp-clone-rajes.netlify.app/",
-    image: whatsapp,
-  },
+  // {
+  //   id: 6,
+  //   projectName: "Whatsapp Web Clone",
+  //   projectDesc: "This project is a Whatsapp Web clone where users can chat",
+  //   tags: ["React", "node.js", "Express", "mongodb", "Material Ui"],
+  //   code: "https://github.com/Rajeswaran149/whatsapp-frontend",
+  //   code1: "https://github.com/Rajeswaran149/whatsapp-backend.git",
+  //   demo: "https://whatsapp-clone-rajes.netlify.app/",
+  //   image: whatsapp,
+  // },
 ];
 //   {
 //     id: 6,
