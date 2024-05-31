@@ -1,10 +1,10 @@
 export const experienceData = [
   {
     id: 1,
-    company: "Balaji Industries",
-    jobtitle: "Graduate Engineering Trainee",
-    startYear: "July 2016",
-    endYear: "july 2017",
+    company: "Acelion Energy Storage Solutions pvt ltd",
+    jobtitle: "Jr.Full Stack Developer",
+    startYear: "June 2023",
+    endYear: "Jan 2024",
   },
   {
     id: 2,
@@ -15,9 +15,9 @@ export const experienceData = [
   },
   {
     id: 3,
-    company: "Learning New Technology",
-    jobtitle: "Learning with google",
-    startYear: "2022",
-    endYear: "Present",
+    company: "Balaji Industries",
+    jobtitle: "Graduate Engineering Trainee",
+    startYear: "July 2016",
+    endYear: "july 2017",
   },
 ];

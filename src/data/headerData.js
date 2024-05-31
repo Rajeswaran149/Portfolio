@@ -8,5 +8,6 @@ export const headerData = {
   image: Rajes,
   imagebw: "",
   resumePdf:
-    "https://drive.google.com/file/d/1dvPNfpLfs7GbDa5p7PfiZfFHCSx-kcs8/view?usp=sharing",
+    // "https://drive.google.com/file/d/1dvPNfpLfs7GbDa5p7PfiZfFHCSx-kcs8/view?usp=sharing",
+    "https://drive.google.com/file/d/10-ZD3Jdfd9esELRFuU34ShvdwGQtG9U2/view?usp=drive_link"
 };
