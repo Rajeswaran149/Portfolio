@@ -12,6 +12,7 @@ import {
   FaStackOverflow,
   FaTwitter,
   FaYoutube,
+  FaHackerrank
 } from "react-icons/fa";
 import { FiAtSign, FiPhone } from "react-icons/fi";
 import { HiOutlineLocationMarker } from "react-icons/hi";
@@ -362,6 +363,16 @@ function Contacts() {
                   className={classes.socialIcon}
                 >
                   <FaFacebook aria-label="facebook" />
+                </a>
+              )}
+              {socialsData.hackerrank && (
+                <a
+                  href={socialsData.hackerrank}
+                  target="_blank"
+                  rel="noreferrer"
+                  className={classes.socialIcon}
+                >
+                  <FaHackerrank aria-label="hackerrank" />
                 </a>
               )}
             </div>

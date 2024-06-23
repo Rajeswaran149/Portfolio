@@ -9,7 +9,7 @@ import { socialsData } from '../../data/socialsData';
 import './Landing.css';
 
 import {
-    FaFacebook, FaGithub, FaLinkedin, FaTwitter
+    FaFacebook, FaGithub, FaLinkedin, FaTwitter, FaHackerrank
 } from 'react-icons/fa';
 
 function Landing() {
@@ -91,7 +91,7 @@ function Landing() {
                                 rel='noreferrer'
                             >
                                 <FaGithub
-                                    className='landing--social'
+                                    className='landing--social github-icon'
                                     style={{ color: theme.primary }}
                                     aria-label='GitHub'
                                 />
@@ -120,6 +120,19 @@ function Landing() {
                                     className='landing--social facebook-icon'
                                     style={{ color: theme.primary }}
                                     aria-label='facebook'
+                                />
+                            </a>
+                        )}
+                        {socialsData.hackerrank && (
+                            <a
+                                href={socialsData.hackerrank}
+                                target='_blank'
+                                rel='noreferrer'
+                            >
+                                <FaHackerrank
+                                    className='landing--social hackerrank-icon'
+                                    style={{ color: theme.primary }}
+                                    aria-label='hackerrank'
                                 />
                             </a>
                         )}

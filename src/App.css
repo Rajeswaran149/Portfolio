@@ -7,15 +7,21 @@
 /* .facebook-icon {
     background-color:
 } */
-/* 
-.twitter-icon:hover {
+ 
+/* .twitter-icon:hover {
   color: #1d9bf0 !important;
-}
+} */
 
 .linkedin-icon:hover {
   color: #0a66c2 !important;
 }
+.github-icon:hover {
+  color: #0a66c2 !important;
+}
+.hackerrank-icon:hover {
+  color: #0a66c2 !important;
+}
 
-.youtube-icon:hover {
+/* .youtube-icon:hover {
   color: #ff0000 !important;
-} */
+}  */

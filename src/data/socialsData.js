@@ -5,5 +5,6 @@ export const socialsData = {
   // twitter: 'https://twitter.com/said7388',
   // medium: 'https://medium.com/@abusaid-bd',
   // stackOverflow: 'https://stackoverflow.com/users/16840768/abu-said',
+  hackerrank : 'https://www.hackerrank.com/dashboard',
   mail: "rajeswaran149@gmail.com",
 };
