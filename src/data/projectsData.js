@@ -80,7 +80,7 @@ export const projectsData = [
   },
   {
     id: 4,
-    projectName: "lifeline",
+    projectName: "Lifeline",
     projectDesc: "Lifeline is a web application designed to enhance personal safety and support",
     tags: ["React.js", "Tailwind.css" , "Node.js" , "Mongodb", "Twilio api" , "Gemini AI api"],
     code: "https://github.com/Rajeswaran149/lifeline-frontend",
