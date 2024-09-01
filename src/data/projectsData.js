@@ -12,6 +12,7 @@ import shop from "../assets/svg/projects/e-com shop.png";
 import chat from "../assets/svg/projects/chat app.png";
 import pathfinder from "../assets/svg/projects/path-finder.png";
 import pizza from "../assets/svg/projects/pizza.png";
+import lifeline from "../assets/svg/projects/lifeline.png";
 
 export const projectsData = [
   {
@@ -79,6 +80,16 @@ export const projectsData = [
   },
   {
     id: 4,
+    projectName: "lifeline",
+    projectDesc: "Lifeline is a web application designed to enhance personal safety and support",
+    tags: ["React.js", "Tailwind.css" , "Node.js" , "Mongodb", "Twilio api" , "Gemini AI api"],
+    code: "https://github.com/Rajeswaran149/lifeline-frontend",
+    code1: "https://github.com/Rajeswaran149/lifeline-backend",
+    demo: "https://lifeline-care.netlify.app/",
+    image: lifeline,
+  },
+  {
+    id: 5,
     projectName: "Pizza-delivery",
     projectDesc:
       "MERN Stack project of with jwt authentication with stripe payment.Admin login with CRUD operations on products.",
@@ -97,8 +108,9 @@ export const projectsData = [
     demo: "https://pizza-rajes.netlify.app/",
     image: pizza,
   },
+  
   {
-    id: 5,
+    id: 6,
     projectName: "Pathfinder",
     projectDesc: "A Simple Pathfinding visualizer algorithms",
     tags: ["React", "Bootstrap"],
