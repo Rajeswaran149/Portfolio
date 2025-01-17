@@ -1,9 +1,9 @@
 export const experienceData = [
   {
     id: 1,
-    company: "The Tann Mann Gaadi ",
-    jobtitle: "MERN Stack Developer",
-    startYear: "July 2024",
+    company: "The Tann Mann Gaadi Foundation ",
+    jobtitle: "Full Stack Developer",
+    startYear: "Jan 2024",
     endYear: "present",
   },
   {
